@@ -1,0 +1,80 @@
+html, body{
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-left ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-left a{
+    color: black;
+    text-decoration: none;
+}
+.nav-left ul li{
+    margin-right: 25px;
+    font-size: 20px;
+}
+.nav-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-right a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 8px 20px;
+    
+}
+/* navbar end */
+form{
+    width: 350px;
+    margin: 50px auto;
+    padding: 10px;
+}
+form div{
+    margin-top: 10px;
+}
+form div label{
+    font-weight: bold;
+    font-size: 20px;
+}
+input, select, textarea{
+    width: 100%;
+    background-color: #dfdfdf;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+textarea{
+    resize: none;
+}
+select.subject{
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
+
+button{
+    color: white;
+    background-color: red;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+}
