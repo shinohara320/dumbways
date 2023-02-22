@@ -77,4 +77,5 @@ button{
     font-size: 15px;
     border: 1px solid #dfdfdf;
     border-radius: 5px;
+    cursor: pointer;
 }
