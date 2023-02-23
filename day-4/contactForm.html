@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./assets/css/style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <ul>
+                <li>Logo</li>
+                <li><a href="index.html">Home</a></li>
+                <li>Blog</li>
+
+            </ul>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <a href="./contactForm.html">Contact Me</a>
+            </ul>
+        </div>
+    </nav>
+    <form>
+        <div class="first">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+        </div>
+        <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="text">
+        </div>
+        <div>
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="text">
+        </div>
+        <div>
+            <label for="subject">Subject</label>
+            <select name="" id="subject">
+                <option value="Collaboration">Collaboration</option>
+                <option value="Discussion">Discussion</option>
+                <option value="Hiring">Hiring</option>
+            </select>
+        </div>
+        <div>
+                    <label for="address">Adress</label>
+                    <textarea name="" id="address"style="resize: none;"></textarea>
+        </div>
+        <div>
+            <button type="button" onclick="getData()">Submit Here</button>
+        </div>
+        
+
+<script src="./assets/js/script.js"></script>
+    </form>
+</body>
+</html>
