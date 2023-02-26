@@ -1,0 +1,59 @@
+Navbar
+
+submit form
+
+// //object
+// let myBio = {
+//     myName: "John Doe",
+//     myAge: 25,
+//     myAddress: "123 Main Street",
+//     isMarried: false,
+//     skills: {
+//         no1: "HTML",
+//         no2: "CSS", 
+//         no3:"JavaScript", 
+//         no4: "PHP", 
+//         no5: "MySQL"},
+// }
+// console.table(myBio);
+// console.log(`skill utama masbro adalah ${myBio.skills.no3}`);
+// console.log(`apakah masbro sudah menikah ? ${myBio.isMarried}`);
+// console.log(`skill yang dimiliki masbro adalah ${myBio.skills.no1}, ${myBio.skills.no2}, ${myBio.skills.no3}, ${myBio.skills.no4}, ${myBio.skills.no5}`);
+
+// const mySKills = "Redux";
+
+// const my_skill = {
+//     "php": "PHP",
+//     "js": "JavaScript",
+//     "react": "React"
+// }
+// console.log(my_skill.php);
+// console.log(mySKills);
+
+// //array
+// let myBio2 = ["John Doe", 25, "123 Main Street", false, ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]];
+// console.table(myBio2);
+// console.log(`apakah masbro sudah menikah ? ${myBio2[3]}`);
+// console.log(`skill utama masbro adalah ${myBio2[4][2]}`);
+// console.log(myBio2.length);
+
+// //array of objects
+// const myClass = [
+//     {
+//         name: "John Doe",
+//         age: 25,
+//         address: "123 Main Street"
+//     },
+//     {
+//         name: "Jane Doe",
+//         age: 23,
+//         address: "456 Main Street"
+//     },
+//     {
+//         name: "Jack Doe",
+//         age: 22,
+//         address: "789 Main Street"
+//     }
+// ];
+// console.table(myClass);
+// console.log(myClass[1].name);
